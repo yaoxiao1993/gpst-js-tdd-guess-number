@@ -34,14 +34,14 @@ function main(input) {
     var flag = true;
     var arr = [];
     for(var i in input){
-        arr.push(input.charAt(i))
-    };
+        arr.push(input.charAt(i));
+    }
     arr.sort();
     for(var i = 0; i < arr.length; i ++){
-        if(arr[i] === arr[i+1]){
+        if(arr[i] === arr[i + 1]){
             flag = false;
             break;
-        }
+        };
     }
 
     ///判断输入中是否有重复值，若没有才比较输入和随机值；若有，提示‘请输入4个不同的数字’
