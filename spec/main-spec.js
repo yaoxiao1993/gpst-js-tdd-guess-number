@@ -26,7 +26,7 @@ describe('main()', function() {
     });
 
     it('输入相同的数字', function(){
-        var expectResult = main('5668');
+        var expectResult = main('5686');
         expect(expectResult).toEqual('请输入4个不同的数字');
     });
 
