@@ -20,6 +20,7 @@ function getRandomString(){
         }while(isSameNum === true);
         randomString = randomString + newRandomNum;
     }
+    console.log('randoem string is: '+randomString)
     return randomString;
 }
 
